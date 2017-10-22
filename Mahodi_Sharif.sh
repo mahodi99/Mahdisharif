@@ -1,3 +1,21 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @mahodi99
+ Sign out
+ Watch 0
+  Star 0  Fork 0 mahodi99/Mahdisharif
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+Branch: master Find file Copy pathMahdisharif/TH3BOSS.sh
+55dcd66  19 days ago
+@moody2020 moody2020 TH3BOSS ┇ Final Version 20
+1 contributor
+RawBlameHistory     
+47 lines (41 sloc)  1009 Bytes
 
 THIS_DIR=$(cd $(dirname $0); pwd)
 cd $THIS_DIR
@@ -41,6 +59,18 @@ elif [ "$1" = "update" ]; then
 	update
 	exit 1
 else
-green " جاري تشغيل سورس الــزعــيــم تــوكــن   ...	"
+green " جاري تشغيل سورس مهدي تــوكــن   ...	"
 lua ./bot/bot.lua
 fi
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
