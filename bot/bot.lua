@@ -14,7 +14,7 @@ json = (loadfile "./libs/JSON.lua")()
 JSON = (loadfile "./libs/dkjson.lua")()
 serpent = (loadfile "./libs/serpent.lua")()
 if notredis then
-print('\27[31m🔖┇ مرحبا عزيزي \n🔖┇ { redis-server } السورس يحتاج الى ريدز  \n🔖┇ redis-server  لحل هذا المشكله افتح ترمنال جديد واكتب   \n🔖┇ TH3BOSS.sh وبعدها ارجع سوي رن لملف الـ  \n🔖┇ للاستفسار راسلني @TH3BOSS\27[39m')
+print('\27[31m🔖┇ مرحبا عزيزي \n🔖┇ { redis-server } السورس يحتاج الى ريدز  \n🔖┇ redis-server  لحل هذا المشكله افتح ترمنال جديد واكتب   \n🔖┇ TH3BOSS.sh وبعدها ارجع سوي رن لملف الـ  \n🔖┇ للاستفسار راسلني @Mahodi_Sharif\27[39m')
 return
 end
 
@@ -51,8 +51,8 @@ if not tostring(SUDO):match('%d+') then
     sudo_users = {60809019, SUDO},--Sudo users
     master_id = SUDO, 
     token_bot = token, 
-    botname = (botname or "الزعيم"), 
-    sudouser = (sudouser or "@TH3BOSS"), 
+    botname = (botname or "مهدي"), 
+    sudouser = (sudouser or "@Mahodi_Sharif"), 
     moderation = {data = './data/moderation.json'},
    info_text = [[🔖┇ ᗯEᒪᑕOᗰE ᗰY ᗪEᗩᖇ
 
@@ -60,13 +60,13 @@ if not tostring(SUDO):match('%d+') then
 
 🔖┇ SᑌᗪO ↭ ]]..sudouser..[[
 
-🔖┇ Tᗯᔕ ↭ @TH3BOSSBOT
+🔖┇ Tᗯᔕ ↭ @Mahodi_Sharif
 
 🔖┇ TH3BOSS ↭ Final Version 21
 
 ●-•-•-•-•-•-○-•-•-•-•-•-●
 
-🔖┇ ᑕᕼ ↭ @llDEV1ll
+🔖┇ ᑕᕼ ↭ @DEV_MODI
 
 ]],
   }
@@ -80,7 +80,7 @@ function load_config( )
   local f = io.open('./data/config.lua', "r")
   -- If config.lua doesn't exist
   if not f then
-    print ("\n🔖┇ جاري انشاء الكونفك :\n🔖┇ خلي ايديك والتوكن واسم البوت ومعرفك كمطور \n🔖┇ V21 وسوف يتم  تشغيل  السورس الزعيم توكن الاصدار  ")
+    print ("\n🔖┇ جاري انشاء الكونفك :\n🔖┇ خلي ايديك والتوكن واسم البوت ومعرفك كمطور \n🔖┇ V21 وسوف يتم  تشغيل  السورس مهدي توكن الاصدار  ")
     create_config()
   else
     f:close()
@@ -107,7 +107,7 @@ print("🔖┇ لم تقم بوضع التوكن يجب عليك وضع التو
 return
 else
 token_botx = "توكن"
-master_idx = 60809019
+master_idx = 354006921
 end
 
 
@@ -122,7 +122,7 @@ function bot_run()
 		bot = send_req(send_api.."/getMe")
 	end
 	bot = bot.result
-	local runlog = "🔖┇ معرف بوتك : @"..bot.username.."\n	🔖┇ يعمل ع سورس الزعيم توكن الاصدار V21\n🔖┇ تابع قناه السورس @lBOSSl"
+	local runlog = "🔖┇ معرف بوتك : @"..bot.username.."\n	🔖┇ يعمل ع سورس مهدي توكن الاصدار V21\n🔖┇ تابع قناه السورس @Mahodi_Sharif"
 	print(runlog.."\n┇-----------------------------------")
 --	send_msg(sudo_id, runlog)
 	last_update = last_update or 0
